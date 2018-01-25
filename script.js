@@ -9,6 +9,7 @@ if (wantToPlay == "yes") {
   while (wins < 3 && userHealth > 1) {
     dmg = Math.floor(Math.random() * 2) + 1;
     userHealth -= dmg;
+    dmg = Math.floor(Math.random() * 2) + 1;
     grantHealth -= dmg;
     console.log (user + " has " + userHealth + " life left!");
     console.log ("Grant the mighty chicken has " + grantHealth + " life left!");
